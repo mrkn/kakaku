@@ -20,7 +20,7 @@ module Kakaku
     memoize :url
 
     def name
-      document.css('#titleBox').inner_text
+      document.css('#titleBox').inner_text.strip
     end
     memoize :name
 
