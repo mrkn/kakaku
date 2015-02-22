@@ -32,6 +32,9 @@ gem 'puma'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'nokogiri'
+gem 'mem'
+
 # For Heroku
 group :production do
   gem 'rails_12factor'
